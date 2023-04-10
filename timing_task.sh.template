@@ -1,0 +1,13 @@
+currentTime=`date "+%Y-%m-%d %H:%M:%S"`
+echo $currentTime >> ./timing_stress_test_task.log
+${your command} >/dev/null 2>&1 &
+
+sleep 4h
+currentTime=`date "+%Y-%m-%d %H:%M:%S"`
+echo $currentTime >> ./timing_stress_test_task.log
+${your command} >/dev/null 2>&1 &
+
+sleep 4h
+currentTime=`date "+%Y-%m-%d %H:%M:%S"`
+echo $currentTime >> ./timing_stress_test_task.log
+${your command} >/dev/null 2>&1 &
