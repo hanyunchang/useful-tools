@@ -1,0 +1,19 @@
+1. 按行遍历文件处理
+cat your_file | while read line
+do
+    echo ${line}
+done
+
+2. 截取字符串变量中的子串, 注意echo变量时一定要加引号
+str="[127.0.0.1:8899]"
+prot = `echo "${str}" | awk -F":|]" '{print $2}'`
+
+3. echo时拼接字符串
+echo ${ip}":"${port}" "${data_size_info}"
+
+4. if判断字符串是否为空,一定注意格式 if空格[空格-z空格"${str}"空格]， 不然会报错
+if [ -z "${str}" ]; then 
+   #do something
+else
+   #do something
+fi
