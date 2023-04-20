@@ -17,3 +17,9 @@ if [ -z "${str}" ]; then
 else
    #do something
 fi
+
+5. for循环
+for((i=0;i<10;i++))
+do
+    #do something
+done
