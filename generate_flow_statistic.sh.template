@@ -1,3 +1,3 @@
 # sedsed 's/[0-9]*-[0-9]*-[0-9]* \([0-9:]*\).*/\1/' 是将时间抠出来，精确到秒，为后面统计每秒的流量用
-fgrep 'NOTICE' xxx.log | sed 's/[0-9]*-[0-9]*-[0-9]* \([0-9:]*\).*/\1/' | awk '{s[$1]+=1}END{for (i in s) print i,s[i]}' | sort -nk2,2
+fgrep 'NOTICE' xxx.log | sed 's/[0-9]*-[0-9]* \([0-9:]*\).*/\1/' | awk '{s[$1]+=1}END{for (i in s) print i,s[i]}' | sort -nk2,2
 
