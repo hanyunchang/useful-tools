@@ -1,0 +1,9 @@
+如以下数据
+table_name1 100 MB
+table_name2 10 MB
+table_name1 100 MB
+table_name1 100 MB
+table_name3 10 MB
+
+
+cat XXX | awk '{num[$1]++;sum[$1]+=$2}END{for(table_name in num) print table_name,num[table_name],sum[table_name],sum[table_name]/num[table_name]}' 
