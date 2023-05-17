@@ -3,4 +3,4 @@ cat  xxx.log |  grep "${key_str}" |sed 's/[0-9]*-[0-9]* \([0-9:]*\).*/\1/' | awk
 
 
 2. 统计热点key
-cat xxx.log | grep -Po "key: [0-9a-z]*"  | awk -F" " '{print $2}' | sort | uniq -c | sort -nk1
+cat xxx.log | grep -Po "${key_str}"  | awk -F" " '{print $2}' | sort | uniq -c | sort -nk1
