@@ -6,18 +6,21 @@
    https://en.cppreference.com/w/cpp/filesystem/create_directory
 
 3. 删除一个文件或目录
-   https://en.cppreference.com/w/cpp/filesystem/remove
+    https://en.cppreference.com/w/cpp/filesystem/remove
 
-4. 读取文件的大小
-
+4. 获取文件的大小
+   https://en.cppreference.com/w/cpp/filesystem/file_size
 
 5. 按行向文件写入内容
-  ifstream风格: https://en.cppreference.com/w/cpp/io/basic_fstream " << "
+   ifstream风格: https://en.cppreference.com/w/cpp/io/basic_fstream " << "
+   FILE* 风格: https://en.cppreference.com/w/c/io/fputs 
 
 6. 按行读取文件中的内容
-  ifstream风格: https://en.cppreference.com/w/cpp/io/basic_fstream " >> "、std::getline ( https://en.cppreference.com/w/cpp/string/basic_string/getline )
+   ifstream风格: https://en.cppreference.com/w/cpp/io/basic_fstream " >> "、std::getline ( https://en.cppreference.com/w/cpp/string/basic_string/getline )
+   FILE* 风格: https://en.cppreference.com/w/c/experimental/dynamic/getline
 
 7. 关闭一个文件
   ifstream风格: https://en.cppreference.com/w/cpp/io/basic_fstream close
+  FILE* 风格:  https://en.cppreference.com/w/c/io/fclose
  
 
