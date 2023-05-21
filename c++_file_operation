@@ -1,5 +1,6 @@
 1. 打开/新建一个文件
-   https://en.cppreference.com/w/cpp/io/c/fopen
+   FILE* 风格: https://en.cppreference.com/w/cpp/io/c/fopen
+   ifstream风格: https://en.cppreference.com/w/cpp/io/basic_fstream/open
    
 2. 新建一个目录
    https://en.cppreference.com/w/cpp/filesystem/create_directory
@@ -9,7 +10,14 @@
 
 4. 读取文件的大小
 
+
 5. 按行向文件写入内容
+  ifstream风格: https://en.cppreference.com/w/cpp/io/basic_fstream " << "
 
 6. 按行读取文件中的内容
+  ifstream风格: https://en.cppreference.com/w/cpp/io/basic_fstream " >> "、std::getline ( https://en.cppreference.com/w/cpp/string/basic_string/getline )
+
+7. 关闭一个文件
+  ifstream风格: https://en.cppreference.com/w/cpp/io/basic_fstream close
+ 
 
