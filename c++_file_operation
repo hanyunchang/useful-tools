@@ -1,14 +1,13 @@
-1. 新建一个文件
-
+1. 打开/新建一个文件
+   https://en.cppreference.com/w/cpp/io/c/fopen
+   
 2. 新建一个目录
    https://en.cppreference.com/w/cpp/filesystem/create_directory
 
-3. 打开一个文件
-
-4. 删除一个文件或目录
+3. 删除一个文件或目录
    https://en.cppreference.com/w/cpp/filesystem/remove
 
-5. 读取文件的大小
+4. 读取文件的大小
 
-6. 按行读取文件中的内容
+5. 按行读取文件中的内容
 
