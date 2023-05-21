@@ -1,6 +1,7 @@
 1. 新建一个文件
 
 2. 新建一个目录
+   https://en.cppreference.com/w/cpp/filesystem/create_directory
 
 3. 打开一个文件
 
