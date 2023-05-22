@@ -18,6 +18,7 @@
 6. 按行读取文件中的内容
    ifstream风格: https://en.cppreference.com/w/cpp/io/basic_fstream " >> "、std::getline ( https://en.cppreference.com/w/cpp/string/basic_string/getline )
    FILE* 风格: https://en.cppreference.com/w/c/experimental/dynamic/getline
+              https://en.cppreference.com/w/c/io/fgets
 
 7. 关闭一个文件
   ifstream风格: https://en.cppreference.com/w/cpp/io/basic_fstream close
