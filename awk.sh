@@ -11,6 +11,7 @@
     INDEX_95 = int(NR * 0.95);
     INDEX_98 = int(NR * 0.98);
     INDEX_99 = int(NR * 0.99);
+    INDEX_995 = int(NR * 0.995);
     INDEX_999 = int(NR * 0.999);
     INDEX_9999 = int(NR * 0.9999);
     printf "min = %s\n",nums[1];
@@ -23,6 +24,7 @@
     printf "95th = %s\n",nums[INDEX_95]; 
     printf "98th = %s\n",nums[INDEX_98];   
     printf "99th = %s\n",nums[INDEX_99]; 
+    printf "995th = %s\n",nums[INDEX_995]; 
     printf "99.9th = %s\n",nums[INDEX_999]; 
     printf "99.99th = %s\n",nums[INDEX_9999];
   }'
